@@ -1,0 +1,54 @@
+
+tr:nth-child(even)
+{
+    background-color:#ECECEC;
+}
+thead tr {
+    color: #ffffff;
+    background-color: #6D6D6D;
+    text-align: left;
+}
+
+td, th {
+    padding: 3px 10px;
+}
+
+#padlock_access .side-note {
+    color: #c0c0c0;
+    margin: 0 0 15px 0;
+}
+
+#padlock_access input[type=text] {
+    width: 430px;
+}
+
+#padlock_access td.level-0 {
+    font-weight: bold;
+}
+
+#padlock_access td.level-1 {
+    padding-left: 15px;
+}
+
+#padlock_access td.level-2 {
+    padding-left: 30px;
+}
+
+#padlock_access td.level-3 {
+    padding-left: 45px;
+}
+#add_group, #access_admin {
+	border-bottom:1px solid #dfdfdf;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+.padlock_save {
+	margin: 6px 0 4px !important;
+}
+
+#padlock_groups q {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: transparent url(ticked.png) no-repeat top left;
+}
